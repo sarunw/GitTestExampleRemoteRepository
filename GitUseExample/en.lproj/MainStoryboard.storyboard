@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="rsl-60-ZMI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after merging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJS-YU-ECj">
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IUf-Or-pGb" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="B7w-gQ-B26"/>
-                            <constraint firstItem="IUf-Or-pGb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="nDZ-xm-yDG"/>
+                            <constraint firstItem="IUf-Or-pGb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="ELy-hi-dg2"/>
+                            <constraint firstItem="IJS-YU-ECj" firstAttribute="centerX" secondItem="IUf-Or-pGb" secondAttribute="centerX" type="default" id="QIc-dU-Idf"/>
+                            <constraint firstItem="IJS-YU-ECj" firstAttribute="top" secondItem="3" secondAttribute="top" constant="223" id="YA0-N8-R0J"/>
+                            <constraint firstItem="IUf-Or-pGb" firstAttribute="top" secondItem="IJS-YU-ECj" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Zdt-M2-WJ4"/>
                         </constraints>
                     </view>
                 </viewController>
